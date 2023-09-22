@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\Customers.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Home.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Orders.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Products.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Settings.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Shippings.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Transations.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Image.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Text.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ultilities\DataTemplate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Customers.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Home.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Orders.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Products.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Settings.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Shippings.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Transations.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
